@@ -113,3 +113,32 @@ body {
     aspect-ratio: 1 / 1;
     flex: 1;
 }
+
+/* designs for quote section */
+
+.quote-section {
+    padding: 130px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-section p {
+    margin: 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+    padding-right: 80px;
+}
