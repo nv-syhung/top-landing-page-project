@@ -142,3 +142,32 @@ body {
     color: #1f2937;
     padding-right: 80px;
 }
+
+/* designs for signup section */
+
+.signup {
+    padding: 100px;
+}
+
+.signup .container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px 120px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.signup .container p, .signup .container h2 {
+    margin: 0;
+}
+
+.signup .container button {
+    margin-left: auto;
+    background: none;
+    border: 2px solid #F9FAF8;
+    color:#F9FAF8;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+}
